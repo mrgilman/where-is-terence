@@ -1,0 +1,15 @@
+{
+  "name": "Where is Terence",
+  "website": "https://where-is-terence.herokuapp.com/",
+  "repository": "https://github.com/mrgilman/where-is-terence",
+  "success_url": "/",
+  "scripts": {},
+  "env": {
+	"TWITTER_KEY": {
+	  "description": "Twitter API Consumer Key"
+	},
+	"TWITTER_SECRET": {
+	  "description": "Twitter API Consumer Secret"
+	}
+  }
+}
