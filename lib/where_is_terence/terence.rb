@@ -23,7 +23,7 @@ class Terence
   end
 
   def tweet
-    tweets.detect { |tweet| tweet.place? }
+    @tweet ||= tweets.detect { |tweet| tweet.place? }
   end
 
   def timestamp
